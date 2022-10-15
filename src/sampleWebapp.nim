@@ -8,7 +8,8 @@ import asyncdispatch
 
 routes:
     get "/":
-        include "../tmpl/test.tmpl"
+        include "../tmpl/top.tmpl"
         var content = "Hello World!"
         topHtml(content)
     
+
